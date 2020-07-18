@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="calculator.js"></script>
+    <title>Donald Easy Calculator</title>
+</head>
+<body>
+    <header>
+        <a class="navbar-brand" href="calculator.html" aria-label="Sci-fi Easy Calculator"><h2 class="heading">Donald Easy Calculator</h2></a>
+    </header>
+
+    <div class="background">
+    <form class="main-calc">
+    Value a:<input type="text" id="valuea"><br>
+    Value b:<input type="text" id="valueb"><br>
+    Operator:
+    <select id="operators" class="calBtn">
+        <option value="add">Add</option>
+        <option value="min">Subtract</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option>
+
+        <option value="sin">Sin</option>
+        <option value="cos">cos</option>
+        <option value="tan">tan</option>
+        <option value="asin">asin</option>
+        <option value="acos">acos</option>
+        <option value="atan">atan</option>
+        <option value="asinh">asinh</option>
+        <option value="acosh">acosh</option>
+        <option value="atanh">atanh</option>
+        <option value="atan2">atan2</option>
+
+        <option value="cbrt">cbrt</option>
+        <option value="exp">exp</option>
+        <option value="log">log</option>
+        <option value="sqrt">sqrt</option>
+        <option value="pow">pow</option>
+
+    </select>
+    <button type="button" class="calculator calc-btn" onclick="calc()">Calculate</button>
+    </form>
+    <div id= "output"></div>
+    </div>
+
+<h4 class="Notes">NOTES</h3>
+<div class="row para">
+  <div class="col-sm calbox"><p>This is a simple scientific calculator which is similar to the hand calculator we would regular use. All you just need to do is simply put the numbers and choose the operator to use and calculation and you will see the answer.<br>
+  Basically there are two inputs in the calculator: Value a and Value b. They are values that need to be used for calculaation. Then there is a choice to use a mathematical operator in the drop down. Then after you can calculate for the value needed.<br> E.g. Input the Value a= 2 and Value b= 4; click "Add" option and click "Calculate" and the output result will be 6. </p></div>
+
+  <div class="col-sm calbox2"><p class="para">JUST A NOTE: the operators asin, acos, and atanh must have values that is between 0 and 1. If the values are above 1 it will return the value NaN.<br> Let us understand the mathematical operators here. They are:<br>
+  # Add: This is to add the two numbers with each other<br>
+  # Subtract: This is to subtract two numbers from each other<br>
+  # Multiply: This is to multiply the two numbers<br>
+  # Divide: This is to divide the two numbers<br>
+  # Sin: This return the sine value<br>
+  # Cos: This return the cosine value in a trigonometric function<br>
+  # Tan: This return the tangent value in a trigonometric function<br>
+  # ASin: This return the cosine value in a trigonometric function<br>
+  </p></div>
+
+  <div class="col-sm calbox3"><p class="para"># ACos: This return the cosine value in a trigonometric function<br>
+  # ATan: This return the cosine value in a trigonometric function<br>
+  # ASinh: This return the cosine value in a trigonometric function<br>
+  # ACosh: This return the cosine value in a trigonometric function<br>
+  # ATanh: This return the cosine value in a trigonometric function<br>
+  # ATan2: This return the cosine value in a trigonometric function<br>
+  # Cbrt: This is to calculate the cube root of a value<br>
+  # Exp: This is return the value of an exponential function<br>
+  # Log: This return the natural logarithm of the exponential base<br>
+  # Sqrt: This return the square root of a value<br>
+  # Pow: This return the value of a to the value power of b<br></div>
+</p></div>
+    
+    </form>
+    <footer class="page-footer font-small mdb-color pt-4">
+        <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left mt-3 pb-3">
+      
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Donald Easy Calculator Gym</h6>
+        <p id="comic-like">You can connect us via social media and have a good chart with any memeber of the team.</p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <p>
+          <i class="fas fa-home mr-3"></i> LONDON, UK</p>
+        <p>
+          <a href="mailto:saiyansgym@gmail.com"></a> saiyansgym@gmail.com</p>
+        <p>
+          <a href="tel:08001112222"></a> 08001112222</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> 08001113333</p>
+      </div>
+
+    </div>
+
+    <div class="row d-flex align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="https://saiyansgym.com/" target="_blank">
+            <strong> Saiyan'sgym.com</strong>
+          </a>
+        </p>
+
+      </div>
+    <div class="container">
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f" href="#" target="_blank" aria-label="Facebook"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter" href="#" target="_blank" aria-label="Twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1" >
+          <i class="fab fa-google-plus-g" href="#" target="_blank" aria-label="Google"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in" href="#" target="_blank" aria-label="Linkedin"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble" href="#" target="_blank" aria-label="Dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+    </div>
+
+    </div>
+
+  </div>
+
+</footer> 
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
