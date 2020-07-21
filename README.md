@@ -40,3 +40,14 @@ The fonts used here are from Google fonts.
 - Gitpod: this is used for making the project IDE
 - Pigdom: used for testing website section
 - W3C Validating website: validator.w3.org
+
+# Deployment in the project
+To deploy a website during working in a workspace, first it is saved using CTRL+S and then it can be typed using:
+- python3 -m http.server
+
+### Final Deployment
+To make a final deployment you use these steps:
+- git add -A
+- git status
+- git commit -m "message"
+- git push
