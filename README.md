@@ -29,3 +29,14 @@ As we may know it, this is a project were Javascript is utilised to create a cal
 - Chocolate:  #1ed25a
 - Burlywood: #e7ac5ef1
 - Cyan: #00ffff
+
+### fonts
+The fonts used here are from Google fonts. 
+
+# TECHNOLOGIES used
+- CSS3: this is used to design the font style details
+- HTML5: this is used to create the major content of the website
+- JQUERY and JSDELIVER: Both Javascript technologies used for DOM designs
+- Gitpod: this is used for making the project IDE
+- Pigdom: used for testing website section
+- W3C Validating website: validator.w3.org
