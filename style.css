@@ -63,15 +63,15 @@ text-align: center;
     font-family: Merriweather;
 }
 .calbox{
-    background-color: rgb(30, 210, 90);
+    background-color: #00ffff;
 }
 
 .calbox2{
-    background-color: rgba(123, 255, 0, 0.068);
+    background-color: #e7ac5ef1;
 }
 
 .calbox3{
-    background-color: rgba(0, 255, 255, 0.877);
+    background-color: #09c0c0af;
 }
 
 #output {
