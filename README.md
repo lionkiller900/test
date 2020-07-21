@@ -30,7 +30,7 @@ As we may know it, this is a project were Javascript is utilised to create a cal
 - Burlywood: #e7ac5ef1
 - Cyan: #00ffff
 
-### fonts
+## Fonts
 The fonts used here are from Google fonts. 
 
 # TECHNOLOGIES used
@@ -51,3 +51,18 @@ To make a final deployment you use these steps:
 - git status
 - git commit -m "message"
 - git push
+
+# TESTING
+## Browsing website using DeVop technologies
+### Google Chrome DeVop
+### Mozilla DeVop
+### Mobile Dev tools
+- All Samsung Galaxy series
+- All iPhone series
+- All iPhone series
+
+### Mobile Browsing DeVop tools
+
+- Safari Browser
+- Google Chrome
+- Mozilla Firefox
