@@ -75,12 +75,13 @@ text-align: center;
 
 .calbox2{
     background-color: #e7ac5ef1;
-    font-family: Merriweather;
+    font-family: Inconsolata;
     font-size: 20px;
 }
 
 .calbox3{
     background-color: #09c0c0af;
+    font-family: Merriweather;
 }
 
 #output {
