@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Mukta:wght@300&family=Ranchers&display=swap');
 
 
 * {
@@ -8,10 +8,10 @@ text-align: center;
 }
 
 .background{
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-elegant-light-blue-line-background-image_272095.jpg");
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/24/37/mathematics-background-with-formulas-vector-572437.jpg");
     background-size: cover;
     background-attachment: fixed;
-    min-height: 200px;
+    min-height: 100px;
     background-position: center;
 
 }
@@ -21,20 +21,23 @@ text-align: center;
     box-shadow: 1px 1px 1px 1px brown;
     border-radius: 5px;
     margin-left: 40px;
-    width: 250px;
+    width: 350px;
     margin: auto;
     max-height: fit-content;
     margin-bottom: 9px;
+    background-color: wheat;
 }
 
 .heading {
-    font-family: Rowdies;
+    font-family: Ranchers;
 }
 
 .para {
-    font-family: Rowdies;
-    font-size: 17px;
+    font-family: Mukta;
+    font-size: 20px;
     margin: auto;
+    font-weight: bold;
+    background-color: azure;
 }
 
 #valuea{
@@ -45,29 +48,35 @@ text-align: center;
 .calBtn{
     background-color: #aaff00;
     color: blue;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 10px;
     margin-top: 5px;
 }
 
 .calc-btn{
     color: blue;
-    font-size: 15px;
+    font-size: 20px;
     width: 100px;
-    height: 28px;
+    height: 35px;
     margin-top: auto;
     margin-bottom: 3px;
 }
 .Notes{
-    color: blue;
+    color: whitesmoke;
     font-family: Merriweather;
+    font-size: 25px;
+    background-color: black;
 }
 .calbox{
     background-color: #00ffff;
+    font-family: Inconsolata;
+    font-size: 20px;
 }
 
 .calbox2{
     background-color: #e7ac5ef1;
+    font-family: Merriweather;
+    font-size: 20px;
 }
 
 .calbox3{
@@ -88,6 +97,7 @@ text-align: center;
 }
 
 
-.mathfunction{
-    
+.calculus1{
+    size: 10px;
+    width: 200px;
 }

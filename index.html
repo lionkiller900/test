@@ -11,13 +11,16 @@
 </head>
 <body>
     <header>
-        <a class="navbar-brand" href="index.html" aria-label="Sci-fi Easy Calculator"><h2 class="heading">Donald Easy Calculator</h2></a>
+        <a class="navbar-brand" href="index.html" aria-label="Sci-fi Easy Calculator"><h2 class="heading">Donald Calculation port</h2></a>
     </header>
 
     <div class="background">
+        <div>
+        <img src="https://render.fineartamerica.com/images/rendered/default/poster/8/3.5/break/images-medium-5/differential-calculus-equation-science-photo-library.jpg" alt="differential calculus" class="calculus1">
+        </div>
     <form class="main-calc">
-    Value a:<input type="text" id="valuea"><br>
-    Value b:<input type="text" id="valueb"><br>
+    Value A:<input type="text" id="valuea"><br>
+    Value B:<input type="text" id="valueb"><br>
     Operator:
     <select id="operators" class="calBtn">
         <option value="add">Add</option>
@@ -46,23 +49,20 @@
     <button type="button" class="calculator calc-btn" onclick="calc()">Calculate</button>
     </form>
     <div id= "output"></div>
+        <div>
+        <img src=""
+        </div>
+
     </div>
 
 <h4 class="Notes">NOTES</h3>
-<div class="row para">
-  <div class="col-sm calbox"><p>This is a simple scientific calculator which is similar to the hand calculator we would regular use. All you just need to do is simply put the numbers and choose the operator to use and calculation and you will see the answer.<br>
-  Basically there are two inputs in the calculator: Value a and Value b. They are values that need to be used for calculaation. Then there is a choice to use a mathematical operator in the drop down. Then after you can calculate for the value needed.<br> E.g. Input the Value a= 2 and Value b= 4; click "Add" option and click "Calculate" and the output result will be 6. </p></div>
+<div class="row">
+  <div class="col-sm calbox"><p>This is a simple scientific calculator which is more simple to that of the casual calculator we would regular use. All you just need to do is simply put the numbers and choose the operator to use and calculation and you will see the answer.<br>
+  Basically there are two inputs in the calculator: Value A and Value B. They are values that need to be used for calculation. Then there is a choice to use a mathematical operator in the drop down. Then after you can calculate for the value needed.<br> E.g. Input the Value A= 2 and Value B= 4; click "Add" option and click "Calculate" and the output result will be 6. </p></div>
 
-  <div class="col-sm calbox2"><p class="para">JUST A NOTE: the operators asin, acos, and atanh must have values that is between 0 and 1. If the values are above 1 it will return the value NaN.<br> Let us understand the mathematical operators here. They are:<br>
-  # Add: This is to add the two numbers with each other<br>
-  # Subtract: This is to subtract two numbers from each other<br>
-  # Multiply: This is to multiply the two numbers<br>
-  # Divide: This is to divide the two numbers<br>
-  # Sin: This return the sine value<br>
-  # Cos: This return the cosine value in a trigonometric function<br>
-  # Tan: This return the tangent value in a trigonometric function<br>
-  # ASin: This return the arcsine value in a trigonometric function<br>
-  </p></div>
+  <div class="col-sm calbox2">The operators are of different types. The first four are mainly BODMAS. The rest are simple differential and integral calculus. Now to do calculus calculation all you just do is simple. E.g. if you want to calculate a value using a sine function, just input a value in value A(for example say 1) and a value in value B(for example say 2) and choose the "sine" operator from the drop down list. Then calculate and you get an approximate ouput value of <span class="heading">0.909297.</span>  
+  <p class="para">JUST A NOTE: the operators asin, acos, and atanh must have values that is between 0 and 1. If the values are above 1 it will return the value NaN.<br> Let us understand the mathematical operators here.</p>
+  </div>
 
   <div class="col-sm calbox3"><p class="para"># ACos: This return the arcosine value in a trigonometric function<br>
   # ATan: This return the arctangent value in a trigonometric function<br>
