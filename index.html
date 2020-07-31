@@ -23,10 +23,10 @@
     Value B:<input type="text" id="valueb"><br>
     Operator:
     <select id="operators" class="calBtn">
-        <option value="add">Add</option>
-        <option value="min">Subtract</option>
-        <option value="div">Divide</option>
-        <option value="mul">Multiply</option>
+        <option value="add">Add +</option>
+        <option value="min">Subtract -</option>
+        <option value="div">Divide &#xF7</option>
+        <option value="mul">Multiply &#10761</option>
 
         <option value="sin">sin</option>
         <option value="cos">cos</option>
@@ -39,10 +39,10 @@
         <option value="atanh">atanh</option>
         <option value="atan2">atan2</option>
 
-        <option value="cbrt">cbrt</option>
-        <option value="exp">exp</option>
+        <option value="cbrt">cube root &#8731</option>
+        <option value="exp">exp &#8519</option>
         <option value="log">log</option>
-        <option value="sqrt">sqrt</option>
+        <option value="sqrt">sqrt &#8730</option>
         <option value="pow">pow</option>
 
     </select>
@@ -62,12 +62,16 @@
 
   <div class="col-sm calbox2">The operators are of different types. The first four are mainly BODMAS. The rest are simple differential and integral calculus. Now to do calculus calculation all you just do is simple. E.g. if you want to calculate a value using a sine function, just input a value in value A(for example say 1) and a value in value B(for example say 2) and choose the "sine" operator from the drop down list. Then calculate and you get an approximate ouput value of <span class="heading">0.909297.</span>  
   <p class="para">JUST A NOTE: the operators asin, acos, and atanh must have values that is between 0 and 1. If the values are above 1 it will return the value NaN.</p>
+  Basically asin means arc sine, acos means arc cosine and so on so forth.
   </div>
 
-  <div class="col-sm calbox3"><p class="para">
-  
-  # Pow: This return the value of a to the value power of b<br></div>
-</p></div>
+  <div class="col-sm calbox3">
+  If a value is a constant it will be revealed as a number in full digits. For example the Euler constant, e, is 2.718281828. If you were input 1 into value A and input 1 into value B and pick the operator "exp e" it will return the value <span class="heading">2.718281828.</span> You can play around this by simply putting the values into the boxes and you will get different values<br>
+  Likewise the PI number constant is approximately 3.14. Trick wise just put 2 into value A and 1 into value B and pick "asin" and you will get the PI number. Just input 2 into value A and 0 into value B and pick "acos" you will get the same value.<br>
+
+  </div>
+
+ </div>
     
     </form>
     <footer class="page-footer font-small mdb-color pt-4">

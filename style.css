@@ -80,8 +80,9 @@ text-align: center;
 }
 
 .calbox3{
-    background-color: #09c0c0af;
-    font-family: Merriweather;
+    background-color: cornsilk;
+    font-family: Inconsolata;
+    font-size: 20px;
 }
 
 #output {
