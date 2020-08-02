@@ -1,5 +1,5 @@
 # About Donald Easy Calculator
-### This will be my second project in the Full Stack Developing Diploma Course at the Code Institute. This is an easy calculator where instead of using clicked numbers and other tabs you can simply just input the numbers on the two boxes and pick the operator to get a desired value.
+### This will be my second project in the Full Stack Developing Diploma Course at the Code Institute. This is a website which is used for easy calculation where instead of using clicked numbers and other tabs you can simply just input the numbers on the two boxes and pick the operator to get a desired value. Inclusive here is also scientific calculation 
 
 # Website
 [Visit the website]() [,explore the page, and do calculation ](https://lionkiller900.github.io/test/)
@@ -10,18 +10,26 @@
 This website is useful because:
 - It is easy to simply input numbers and choose an operator
 - Its easily downloadable
+- The page is noticeable in the outlook containing mathematically information.
+- Instead of the normal calculator outlook containing the operator buttons this will simply have a drop list that is easy for the individual to pick any operator.
 
 ## Mockups
-This is a one page website. This hence makes it easy to use. This is because a basic scientific calculator do not need more details.
+This is a one page website. This hence makes it easy to use. This is because a basic scientific calculator with more mathematical operators not seen in most calculator.
 
 ## Wireframing
-This is a one=page wireframe sketch. Here it is [here]()
+This is a one=page wireframe sketch.[Here it is](https://0oba3a.db.files.1drv.com/y4ma1V3Z2Fj2qjXS2tVui_07B9jjHjSDamaAZoB2q5lJWyCJAvbU7Z5WimX_0ZmvM5Q4pSt3jn7dWr5cGwJBx6nwIbsWue1bJGGezdaWNQPdCJerXooriUOnXd3B95ioT41MssX4yrj-nXH5L4gmLhL7IxNYwtuqKf-bUURmvAfw6_pypkd2ok3AjzWbkVlf0_NxmkD2IG076ULXD6vd0N4rQ?width=1106&height=865&cropmode=none)
 
 ### Features
 As we may know it, this is a project were Javascript is utilised to create a calculator. To be more sure of how this work was sketched see the screenshot of both Javascript and the HTML:
 
 ## Features of the website
+### Here is a screenshot of the website:
+<img src="https://04ba3a.db.files.1drv.com/y4moGPUcrfIuME5PysDntC-P8RrldN1m6o92qnliWQQ95egfB4pX6aAFoR-VGdgxzFa0qeFlll6b7RZyv2T0FYsTFpPbCOzG0w0kq_jkWOOBSf-QJylSwHuvKKTfApNRM31fKFZQ5k3GBy0FBezwGW0p45O11NAjURruc-M2tkfkKUsxhPzfAUdmFH7_GOOcaNqqozhNOfxA4RLuq2N0g88Bw?width=1366&height=403&cropmode=none" alt="calculator" />
 
+### Here is the screenshots of the workspace on Javascript:
+<img src= "https://3yba3a.db.files.1drv.com/y4mMNDpTqCONsMBC2RPdCA-KqyfOhyq41KqZ3lJB4NyFp3rsJeMXGhyyCSsKwR9qvHw6cOBqaywIBi6Hv5dNNYIKRnHsTIZVYYIa1_7Fk_yrX6wwnAFP-i3zJmWKPU8dHQ-WUgDssURxIXa1YxRTCVToaTvc2jPlSf_BW2pa6dc3LzngaKCh8MHRQMY6hNuTMu3Rsx9qWKbUMD3Wddwk9Fb_w?width=1366&height=518&cropmode=none" />
+
+<img src= "https://z4ba3a.db.files.1drv.com/y4m4iWCdFCIlzd13vkuoBRqpeVjjTfNwwP2PmB2J-kpv8vMMAaNRD0GRTbkiO-bbSD5XOk-78y9IoCjaezemaBQ1gyxOgKI2eLBlrTOo6pYXl3zIw3vXV6R7OndVHAeMibV0R85fIdh8yAKu9J8YhY9irnRgUL8AkST5byLEULo1UiXzmabAMHVnYTGOxEsgy15BAEUMee2cn1MspGecdtEiw?width=1366&height=490&cropmode=none" />
 
 ## Background colours amd fonts utilised
 
@@ -66,3 +74,16 @@ To make a final deployment you use these steps:
 - Safari Browser
 - Google Chrome
 - Mozilla Firefox
+
+### Results from using Pigdom
+
+
+# ACKNOWLEDGEMENT  
+
+- My special thanks to Code Institute  for giving me this opportunity in partaking on this project. 
+
+- I have to give a lot of thanks to tutors such as Michael Park, Tim Nelson, etc. for their contribution. 
+
+- The large members of the Slack community have my thanks for providing insights and hints to my questions that I posed 
+
+- Finally my appreciation to my tutor, Akshat. 
