@@ -21,7 +21,7 @@ text-align: center;
     box-shadow: 1px 1px 1px 1px brown;
     border-radius: 5px;
     margin-left: 40px;
-    width: 350px;
+    width: 290px;
     margin: auto;
     max-height: fit-content;
     margin-bottom: 9px;
@@ -86,7 +86,7 @@ text-align: center;
 }
 
 #output {
-    width: 350px;
+    width: 290px;
     height: 50px;
     text-align: right;
     background-color: white;
