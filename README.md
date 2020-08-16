@@ -1,4 +1,4 @@
-# About Donald Easy Calculator
+# About Donald Calculation port
 ### This will be my second project in the Full Stack Developing Diploma Course at the Code Institute. This is a website which is used for easy calculation where instead of using clicked numbers and other tabs you can simply just input the numbers on the two boxes and pick the operator to get a desired value. Inclusive here is also scientific calculation 
 
 # Website
@@ -23,9 +23,6 @@ This is a one=page wireframe sketch.[Here it is](https://0oba3a.db.files.1drv.co
 As we may know it, this is a project were Javascript is utilised to create a calculator. To be more sure of how this work was sketched see the screenshot of both Javascript and the HTML:
 
 ## Features of the website
-### Here is a screenshot of the website:
-<img src="https://04ba3a.db.files.1drv.com/y4moGPUcrfIuME5PysDntC-P8RrldN1m6o92qnliWQQ95egfB4pX6aAFoR-VGdgxzFa0qeFlll6b7RZyv2T0FYsTFpPbCOzG0w0kq_jkWOOBSf-QJylSwHuvKKTfApNRM31fKFZQ5k3GBy0FBezwGW0p45O11NAjURruc-M2tkfkKUsxhPzfAUdmFH7_GOOcaNqqozhNOfxA4RLuq2N0g88Bw?width=1366&height=403&cropmode=none" alt="calculator" />
-
 ### Here is the screenshots of the workspace on Javascript:
 <img src= "https://3yba3a.db.files.1drv.com/y4mMNDpTqCONsMBC2RPdCA-KqyfOhyq41KqZ3lJB4NyFp3rsJeMXGhyyCSsKwR9qvHw6cOBqaywIBi6Hv5dNNYIKRnHsTIZVYYIa1_7Fk_yrX6wwnAFP-i3zJmWKPU8dHQ-WUgDssURxIXa1YxRTCVToaTvc2jPlSf_BW2pa6dc3LzngaKCh8MHRQMY6hNuTMu3Rsx9qWKbUMD3Wddwk9Fb_w?width=1366&height=518&cropmode=none" />
 
@@ -86,4 +83,4 @@ To make a final deployment you use these steps:
 
 - The large members of the Slack community have my thanks for providing insights and hints to my questions that I posed 
 
-- Finally my appreciation to my tutor, Akshat. 
+- Finally my appreciation goes to my tutor. 
