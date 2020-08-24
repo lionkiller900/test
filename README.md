@@ -17,7 +17,7 @@ This website is useful because:
 This is a one page website. This hence makes it easy to use. This is because a basic scientific calculator with more mathematical operators not seen in most calculator.
 
 ## Wireframing
-This is a one=page wireframe sketch.[Here it is](https://0oba3a.db.files.1drv.com/y4ma1V3Z2Fj2qjXS2tVui_07B9jjHjSDamaAZoB2q5lJWyCJAvbU7Z5WimX_0ZmvM5Q4pSt3jn7dWr5cGwJBx6nwIbsWue1bJGGezdaWNQPdCJerXooriUOnXd3B95ioT41MssX4yrj-nXH5L4gmLhL7IxNYwtuqKf-bUURmvAfw6_pypkd2ok3AjzWbkVlf0_NxmkD2IG076ULXD6vd0N4rQ?width=1106&height=865&cropmode=none)
+This is a one-page wireframe sketch.[Here it is](https://0oba3a.db.files.1drv.com/y4ma1V3Z2Fj2qjXS2tVui_07B9jjHjSDamaAZoB2q5lJWyCJAvbU7Z5WimX_0ZmvM5Q4pSt3jn7dWr5cGwJBx6nwIbsWue1bJGGezdaWNQPdCJerXooriUOnXd3B95ioT41MssX4yrj-nXH5L4gmLhL7IxNYwtuqKf-bUURmvAfw6_pypkd2ok3AjzWbkVlf0_NxmkD2IG076ULXD6vd0N4rQ?width=1106&height=865&cropmode=none)
 
 ### Features
 As we may know it, this is a project were Javascript is utilised to create a calculator. To be more sure of how this work was sketched see the screenshot of both Javascript and the HTML:
@@ -43,7 +43,7 @@ The fonts used here are from Google fonts.
 - HTML5: this is used to create the major content of the website
 - JQUERY and JSDELIVER: Both Javascript technologies used for DOM designs
 - Gitpod: this is used for making the project IDE
-- Pigdom: used for testing website section
+- Lighthouse: used for testing website section
 - W3C Validating website: validator.w3.org
 
 # Deployment in the project
@@ -72,8 +72,9 @@ To make a final deployment you use these steps:
 - Google Chrome
 - Mozilla Firefox
 
-### Results from using Pigdom
-
+### Results from using Lighthouse
+The result of the website testing [is here. ](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flionkiller900.github.io%2Ftest%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext#performance)
+Note: to view this webpage you need to add Lighthouse to the browser extension.
 
 # ACKNOWLEDGEMENT  
 
