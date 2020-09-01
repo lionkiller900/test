@@ -73,7 +73,7 @@ To make a final deployment you use these steps:
 - Mozilla Firefox
 
 ### Results from using Lighthouse
-The result of the website testing [is here. ](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flionkiller900.github.io%2Ftest%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext#performance)
+The result of the website testing [is here. ](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flionkiller900.github.io%2FCalculator-port%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
 Note: to view this webpage you need to add Lighthouse to the browser extension.
 
 # ACKNOWLEDGEMENT  
